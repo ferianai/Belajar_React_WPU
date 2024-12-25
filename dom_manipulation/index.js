@@ -1,3 +1,4 @@
+// learning dom manipulation
 const app = document.getElementById("app"); // ambil element dengan id app
 const header = document.createElement("h1"); // buat element h1
 const headerContent = document.createTextNode("Belajar React bareng WPU"); // buat text node
