@@ -1,12 +1,7 @@
-/* eslint-disable react/prop-types */
-import { useState } from 'react'
 
-// Header component
-function Header({name}) {
-  return (
-      <h1>Belajar React bareng {name ? name : 'WPU'} </h1> // itenary operator, if name is not empty, show name, else show WPU
-  )
-}
+import { useState } from 'react'
+import Header from './components/Header'
+
 
 function App() {
   const students = ['Dhika', 'Budi', 'Joko', 'Rudi'];
