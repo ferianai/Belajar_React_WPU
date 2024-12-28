@@ -17,6 +17,7 @@ function HomePage() {
         setLikes(likes + 1);
     }
 
+    // return JSX to render to the DOM and // button to handle click event and show likes
     return (
         <div>
             <Header name='Pak Dhika'/>
@@ -26,7 +27,7 @@ function HomePage() {
                 ))}
             </ul>
 
-            <button onClick={handleClick}>Like ({likes})</button>
+            <button onClick={handleClick}>Like ({likes})</button> 
         </div>
     )
 }
